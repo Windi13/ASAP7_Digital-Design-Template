@@ -2,7 +2,7 @@ export PLATFORM               = asap7
 
 export DESIGN_NAME            = counter_board
 
-export VERILOG_FILES          = $(FLOW_HOME)/../../verilog/rtl/counter_board.v
+export VERILOG_FILES          = $(FLOW_HOME)/../../verilog/rtl/$(DESIGN_NAME).v
 export SDC_FILE               = $(DESIGN_HOME)/$(PLATFORM)/$(DESIGN_NAME)/constraint.sdc
 
 export DIE_AREA               = 0 0 10 10

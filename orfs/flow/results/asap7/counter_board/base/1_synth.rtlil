@@ -2578,42 +2578,42 @@ module \XOR2xp5_ASAP7_75t_R
   wire output 3 \Y
 end
 attribute \hdlname "counter_4_16"
-attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:1.1-32.10"
+attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:1.1-32.10"
 module \counter_4_16
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:27.3-31.22"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:27.3-31.22"
   wire width 4 $0\n20_q[3:0]
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:21.18-21.41"
-  wire width 4 $add$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:21$3_Y
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:19.18-19.42"
-  wire $eq$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:19$2_Y
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:23.18-23.41"
-  wire width 4 $ternary$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:23$4_Y
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:25.18-25.63"
-  wire width 4 $ternary$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:25$5_Y
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:2.11-2.18"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:21.18-21.41"
+  wire width 4 $add$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:21$3_Y
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:19.18-19.42"
+  wire $eq$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:19$2_Y
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:23.18-23.41"
+  wire width 4 $ternary$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:23$4_Y
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:25.18-25.63"
+  wire width 4 $ternary$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:25$5_Y
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:2.11-2.18"
   wire input 1 \clock_i
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:6.14-6.27"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:6.14-6.27"
   wire width 4 \counter_value
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:5.17-5.32"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:5.17-5.32"
   wire width 4 output 4 \counter_value_o
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:4.11-4.19"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:4.11-4.19"
   wire input 3 \enable_i
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:8.8-8.13"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:8.8-8.13"
   wire \n13_o
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:9.14-9.19"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:9.14-9.19"
   wire width 4 \n15_o
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:10.14-10.19"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:10.14-10.19"
   wire width 4 \n17_o
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:11.14-11.19"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:11.14-11.19"
   wire width 4 \n19_o
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:12.13-12.18"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:12.13-12.18"
   wire width 4 \n20_q
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:7.14-7.32"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:7.14-7.32"
   wire width 4 \next_counter_value
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:3.11-3.18"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:3.11-3.18"
   wire input 2 \reset_i
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:21.18-21.41"
-  cell $add $add$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:21$3
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:21.18-21.41"
+  cell $add $add$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:21$3
     parameter \A_SIGNED 0
     parameter \A_WIDTH 4
     parameter \B_SIGNED 0
@@ -2621,10 +2621,10 @@ module \counter_4_16
     parameter \Y_WIDTH 4
     connect \A \counter_value
     connect \B 4'0001
-    connect \Y $add$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:21$3_Y
+    connect \Y $add$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:21$3_Y
   end
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:19.18-19.42"
-  cell $eq $eq$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:19$2
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:19.18-19.42"
+  cell $eq $eq$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:19$2
     parameter \A_SIGNED 0
     parameter \A_WIDTH 4
     parameter \B_SIGNED 0
@@ -2632,33 +2632,33 @@ module \counter_4_16
     parameter \Y_WIDTH 1
     connect \A \counter_value
     connect \B 4'1111
-    connect \Y $eq$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:19$2_Y
+    connect \Y $eq$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:19$2_Y
   end
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:23.18-23.41"
-  cell $mux $ternary$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:23$4
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:23.18-23.41"
+  cell $mux $ternary$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:23$4
     parameter \WIDTH 4
     connect \A \n15_o
     connect \B 4'0000
     connect \S \n13_o
-    connect \Y $ternary$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:23$4_Y
+    connect \Y $ternary$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:23$4_Y
   end
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:25.18-25.63"
-  cell $mux $ternary$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:25$5
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:25.18-25.63"
+  cell $mux $ternary$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:25$5
     parameter \WIDTH 4
     connect \A \counter_value
     connect \B \next_counter_value
     connect \S \enable_i
-    connect \Y $ternary$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:25$5_Y
+    connect \Y $ternary$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:25$5_Y
   end
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:27.3-31.22"
-  process $proc$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:27$6
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:27.3-31.22"
+  process $proc$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:27$6
     assign $0\n20_q[3:0] \n20_q
-    attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:28.5-31.22"
+    attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:28.5-31.22"
     switch \reset_i
-      attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:28.9-28.16"
+      attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:28.9-28.16"
       case 1'1
         assign $0\n20_q[3:0] 4'0000
-      attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:30.5-30.9"
+      attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:30.5-30.9"
       case 
         assign $0\n20_q[3:0] \n19_o
     end
@@ -2670,27 +2670,27 @@ module \counter_4_16
   connect \counter_value_o \counter_value
   connect \counter_value \n20_q
   connect \next_counter_value \n17_o
-  connect \n13_o $eq$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:19$2_Y
-  connect \n15_o $add$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:21$3_Y
-  connect \n17_o $ternary$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:23$4_Y
-  connect \n19_o $ternary$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:25$5_Y
+  connect \n13_o $eq$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:19$2_Y
+  connect \n15_o $add$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:21$3_Y
+  connect \n17_o $ternary$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:23$4_Y
+  connect \n19_o $ternary$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:25$5_Y
 end
 attribute \hdlname "counter_board"
 attribute \top 1
-attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:34.1-53.10"
+attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:34.1-53.10"
 module \counter_board
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:35.11-35.18"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:35.11-35.18"
   wire input 1 \clock_i
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:38.17-38.32"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:38.17-38.32"
   wire width 4 output 4 \counter_value_o
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:37.11-37.19"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:37.11-37.19"
   wire input 3 \enable_i
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:40.8-40.12"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:40.8-40.12"
   wire \n1_o
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:36.11-36.20"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:36.11-36.20"
   wire input 2 \reset_n_i
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:46.17-46.27"
-  cell $not $not$/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:46$1
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:46.17-46.27"
+  cell $not $not$/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:46$1
     parameter \A_SIGNED 0
     parameter \A_WIDTH 1
     parameter \Y_WIDTH 1
@@ -2698,7 +2698,7 @@ module \counter_board
     connect \Y \n1_o
   end
   attribute \module_not_derived 1
-  attribute \src "/foss/designs/ASAP7_OpenROAD-Template/orfs/flow/../../verilog/rtl/counter_board.v:48.16-52.49"
+  attribute \src "/foss/designs/ASAP7_Digital-Design-Template/orfs/flow/../../verilog/rtl/counter_board.v:48.16-52.49"
   cell \counter_4_16 \counter_0
     connect \clock_i \clock_i
     connect \counter_value_o \counter_value_o
