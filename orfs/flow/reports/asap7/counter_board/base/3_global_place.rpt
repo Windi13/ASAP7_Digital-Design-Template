@@ -1,0 +1,260 @@
+
+==========================================================================
+global place report_tns
+--------------------------------------------------------------------------
+tns -74.21
+
+==========================================================================
+global place report_wns
+--------------------------------------------------------------------------
+wns -26.81
+
+==========================================================================
+global place report_worst_slack
+--------------------------------------------------------------------------
+worst slack -26.81
+
+==========================================================================
+global place report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: reset_n_i (input port clocked by core_clock)
+Endpoint: counter_0.n20_q[2]$_DFFE_PN0P_
+          (removal check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                         25.00   25.00 ^ input external delay
+     1    1.51    0.00    0.00   25.00 ^ reset_n_i (in)
+                                         reset_n_i (net)
+                  0.43    0.13   25.13 ^ hold1/A (BUFx2_ASAP7_75t_R)
+     4    3.71   14.23   14.91   40.04 ^ hold1/Y (BUFx2_ASAP7_75t_R)
+                                         net1 (net)
+                 14.23    0.01   40.05 ^ counter_0.n20_q[2]$_DFFE_PN0P_/SETN (DFFASRHQNx1_ASAP7_75t_R)
+                                 40.05   data arrival time
+
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ counter_0.n20_q[2]$_DFFE_PN0P_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                         15.81   15.81   library removal time
+                                 15.81   data required time
+-----------------------------------------------------------------------------
+                                 15.81   data required time
+                                -40.05   data arrival time
+-----------------------------------------------------------------------------
+                                 24.24   slack (MET)
+
+
+Startpoint: enable_i (input port clocked by core_clock)
+Endpoint: counter_0.n20_q[1]$_DFFE_PN0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                         25.00   25.00 v input external delay
+     5    3.54    0.00    0.00   25.00 v enable_i (in)
+                                         enable_i (net)
+                  0.64    0.20   25.20 v _28_/A2 (OA21x2_ASAP7_75t_R)
+     1    0.79    4.74   14.53   39.73 v _28_/Y (OA21x2_ASAP7_75t_R)
+                                         _07_ (net)
+                  4.75    0.03   39.77 v counter_0.n20_q[1]$_DFFE_PN0P_/D (DFFASRHQNx1_ASAP7_75t_R)
+                                 39.77   data arrival time
+
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ counter_0.n20_q[1]$_DFFE_PN0P_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                          9.44    9.44   library hold time
+                                  9.44   data required time
+-----------------------------------------------------------------------------
+                                  9.44   data required time
+                                -39.77   data arrival time
+-----------------------------------------------------------------------------
+                                 30.33   slack (MET)
+
+
+
+==========================================================================
+global place report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: reset_n_i (input port clocked by core_clock)
+Endpoint: counter_0.n20_q[1]$_DFFE_PN0P_
+          (recovery check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                         25.00   25.00 ^ input external delay
+     1    1.64    0.00    0.00   25.00 ^ reset_n_i (in)
+                                         reset_n_i (net)
+                  0.48    0.15   25.15 ^ hold1/A (BUFx2_ASAP7_75t_R)
+     4    4.72   17.36   16.36   41.51 ^ hold1/Y (BUFx2_ASAP7_75t_R)
+                                         net1 (net)
+                 17.36    0.04   41.55 ^ counter_0.n20_q[1]$_DFFE_PN0P_/SETN (DFFASRHQNx1_ASAP7_75t_R)
+                                 41.55   data arrival time
+
+                  0.00  125.00  125.00   clock core_clock (rise edge)
+                          0.00  125.00   clock network delay (ideal)
+                          0.00  125.00   clock reconvergence pessimism
+                                125.00 ^ counter_0.n20_q[1]$_DFFE_PN0P_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                          1.65  126.65   library recovery time
+                                126.65   data required time
+-----------------------------------------------------------------------------
+                                126.65   data required time
+                                -41.55   data arrival time
+-----------------------------------------------------------------------------
+                                 85.09   slack (MET)
+
+
+Startpoint: counter_0.n20_q[0]$_DFFE_PN0P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: counter_0.n20_q[0]$_DFFE_PN0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ counter_0.n20_q[0]$_DFFE_PN0P_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+     4    3.06   28.64   45.38   45.38 ^ counter_0.n20_q[0]$_DFFE_PN0P_/QN (DFFASRHQNx1_ASAP7_75t_R)
+                                         _03_ (net)
+                 28.64    0.04   45.42 ^ _22_/A (INVx1_ASAP7_75t_R)
+     3    2.06   17.06   13.49   58.91 v _22_/Y (INVx1_ASAP7_75t_R)
+                                         counter_value_o[0] (net)
+                 17.06    0.00   58.91 v _35_/B (HAxp5_ASAP7_75t_R)
+     3    3.06   41.48   25.42   84.34 ^ _35_/CON (HAxp5_ASAP7_75t_R)
+                                         _04_ (net)
+                 41.48    0.02   84.36 ^ _24_/C (OR3x1_ASAP7_75t_R)
+     1    0.61    8.00   20.37  104.73 ^ _24_/Y (OR3x1_ASAP7_75t_R)
+                                         _11_ (net)
+                  8.00    0.00  104.73 ^ _25_/C (AND3x1_ASAP7_75t_R)
+     1    0.64   10.15   19.88  124.61 ^ _25_/Y (AND3x1_ASAP7_75t_R)
+                                         _12_ (net)
+                 10.15    0.00  124.61 ^ _26_/B (AO21x1_ASAP7_75t_R)
+     1    0.88    8.77   12.31  136.93 ^ _26_/Y (AO21x1_ASAP7_75t_R)
+                                         _06_ (net)
+                  8.77    0.04  136.96 ^ counter_0.n20_q[0]$_DFFE_PN0P_/D (DFFASRHQNx1_ASAP7_75t_R)
+                                136.96   data arrival time
+
+                  0.00  125.00  125.00   clock core_clock (rise edge)
+                          0.00  125.00   clock network delay (ideal)
+                          0.00  125.00   clock reconvergence pessimism
+                                125.00 ^ counter_0.n20_q[0]$_DFFE_PN0P_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                        -14.85  110.15   library setup time
+                                110.15   data required time
+-----------------------------------------------------------------------------
+                                110.15   data required time
+                               -136.96   data arrival time
+-----------------------------------------------------------------------------
+                                -26.81   slack (VIOLATED)
+
+
+
+==========================================================================
+global place report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: reset_n_i (input port clocked by core_clock)
+Endpoint: counter_0.n20_q[1]$_DFFE_PN0P_
+          (recovery check against rising-edge clock core_clock)
+Path Group: asynchronous
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                         25.00   25.00 ^ input external delay
+     1    1.64    0.00    0.00   25.00 ^ reset_n_i (in)
+                                         reset_n_i (net)
+                  0.48    0.15   25.15 ^ hold1/A (BUFx2_ASAP7_75t_R)
+     4    4.72   17.36   16.36   41.51 ^ hold1/Y (BUFx2_ASAP7_75t_R)
+                                         net1 (net)
+                 17.36    0.04   41.55 ^ counter_0.n20_q[1]$_DFFE_PN0P_/SETN (DFFASRHQNx1_ASAP7_75t_R)
+                                 41.55   data arrival time
+
+                  0.00  125.00  125.00   clock core_clock (rise edge)
+                          0.00  125.00   clock network delay (ideal)
+                          0.00  125.00   clock reconvergence pessimism
+                                125.00 ^ counter_0.n20_q[1]$_DFFE_PN0P_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                          1.65  126.65   library recovery time
+                                126.65   data required time
+-----------------------------------------------------------------------------
+                                126.65   data required time
+                                -41.55   data arrival time
+-----------------------------------------------------------------------------
+                                 85.09   slack (MET)
+
+
+Startpoint: counter_0.n20_q[0]$_DFFE_PN0P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: counter_0.n20_q[0]$_DFFE_PN0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ counter_0.n20_q[0]$_DFFE_PN0P_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+     4    3.06   28.64   45.38   45.38 ^ counter_0.n20_q[0]$_DFFE_PN0P_/QN (DFFASRHQNx1_ASAP7_75t_R)
+                                         _03_ (net)
+                 28.64    0.04   45.42 ^ _22_/A (INVx1_ASAP7_75t_R)
+     3    2.06   17.06   13.49   58.91 v _22_/Y (INVx1_ASAP7_75t_R)
+                                         counter_value_o[0] (net)
+                 17.06    0.00   58.91 v _35_/B (HAxp5_ASAP7_75t_R)
+     3    3.06   41.48   25.42   84.34 ^ _35_/CON (HAxp5_ASAP7_75t_R)
+                                         _04_ (net)
+                 41.48    0.02   84.36 ^ _24_/C (OR3x1_ASAP7_75t_R)
+     1    0.61    8.00   20.37  104.73 ^ _24_/Y (OR3x1_ASAP7_75t_R)
+                                         _11_ (net)
+                  8.00    0.00  104.73 ^ _25_/C (AND3x1_ASAP7_75t_R)
+     1    0.64   10.15   19.88  124.61 ^ _25_/Y (AND3x1_ASAP7_75t_R)
+                                         _12_ (net)
+                 10.15    0.00  124.61 ^ _26_/B (AO21x1_ASAP7_75t_R)
+     1    0.88    8.77   12.31  136.93 ^ _26_/Y (AO21x1_ASAP7_75t_R)
+                                         _06_ (net)
+                  8.77    0.04  136.96 ^ counter_0.n20_q[0]$_DFFE_PN0P_/D (DFFASRHQNx1_ASAP7_75t_R)
+                                136.96   data arrival time
+
+                  0.00  125.00  125.00   clock core_clock (rise edge)
+                          0.00  125.00   clock network delay (ideal)
+                          0.00  125.00   clock reconvergence pessimism
+                                125.00 ^ counter_0.n20_q[0]$_DFFE_PN0P_/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                        -14.85  110.15   library setup time
+                                110.15   data required time
+-----------------------------------------------------------------------------
+                                110.15   data required time
+                               -136.96   data arrival time
+-----------------------------------------------------------------------------
+                                -26.81   slack (VIOLATED)
+
+
+
+==========================================================================
+global place report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             8.20e-05   2.78e-05   3.96e-10   1.10e-04  58.1%
+Combinational          3.94e-05   3.97e-05   1.16e-09   7.91e-05  41.9%
+Clock                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.21e-04   6.75e-05   1.56e-09   1.89e-04 100.0%
+                          64.2%      35.8%       0.0%
