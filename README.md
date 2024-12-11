@@ -1,7 +1,7 @@
 # ASAP7_Digital-Design-Template
 ## Introduction
 
-This template repository is suited for digital signal design (OpenROAD flow-scripts) with the 7nm FinFET open-source ASAP7 PDK and the IIC-OSIC-Tools by IIC JKU.
+This template repository is suited for digital design (OpenROAD flow-scripts) with the 7nm FinFET open-source ASAP7 PDK and the IIC-OSIC-Tools by IIC JKU.
 
 ARM ASAP7 PDK: https://github.com/The-OpenROAD-Project/asap7 & https://www.sciencedirect.com/science/article/pii/S002626921630026X
 
@@ -13,18 +13,20 @@ The recommended folder structure makes it easy to automate with shell scripts. V
 
 I have also made a short video on how to use this repo: https://www.youtube.com/watch?v=UrUOg9s7gsM (video uses IHP's SG13G2 PDK)
 
+If you want to use other OpenROAD-compatible PDKs, just add the corresponding files to the `orfs/flow/platforms` folder. These files can be found at https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts.
+
 ## How to use this template for your design
 
 #### Step-by-step introduction:
 
 1. Clone this repo into the `foss/designs` folder of your IIC-OSIC-Tools environment with `git clone https://github.com/simi1505/ASAP7_Digital-Design-Template.git`.
 3. Rename the repo as you wish.
-4. Execute `clean\_all.sh` to remove any build files.
+4. Execute `clean_all.sh` to remove any build files.
 5. Add your VHDL code to the `vhdl` folder. It is advised that the same folder structure with `rtl` and `sim` is used.
 6. Add your `Xschem` files and testbenches to the `xschem` folder
-7. Adapt VHDL paths in `vhdl2verilog.sh` in the `verilog` folder. If the design is already done in Verilog, this step can be skipped. Do not forget to also comment out this step in `run\_all.sh`.
+7. Adapt VHDL paths in `vhdl2verilog.sh` in the `verilog` folder. If the design is already done in Verilog, this step can be skipped. Do not forget to also comment out this step in `run_all.sh`.
 8. Add config files to `orfs/flow/designs/asap7`. It is a good idea to copy an existing folder (e.g. `counter_board`) and adapt these files. Do not forget to set the path to the Verilog file in `config.mk` and set up the `constraint.sdc` and `autotuner.json`.
-9. Adapt name and Verilog path in `run\_all.sh`.
+9. Adapt name and Verilog path in `run_all.sh`.
 
 #### Simulation details:
 
