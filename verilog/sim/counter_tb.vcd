@@ -1,0 +1,602 @@
+$date
+	Thu Dec 12 12:52:57 2024
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module counter_tb $end
+$var parameter 0 ! CLK_FREQ $end
+$var parameter 32 " COUNTER_MAX $end
+$var parameter 32 # COUNTER_BITWIDTH $end
+$var reg 1 $ clock $end
+$var reg 1 % reset_n $end
+$var reg 1 & enable $end
+$var wire 1 ' counter_value [3] $end
+$var wire 1 ( counter_value [2] $end
+$var wire 1 ) counter_value [1] $end
+$var wire 1 * counter_value [0] $end
+$var reg 1 + tb_end $end
+
+$scope module dut_counter $end
+$var wire 1 , clock_i $end
+$var wire 1 - reset_n_i $end
+$var wire 1 . enable_i $end
+$var wire 1 ' counter_value_o [3] $end
+$var wire 1 ( counter_value_o [2] $end
+$var wire 1 ) counter_value_o [1] $end
+$var wire 1 * counter_value_o [0] $end
+$var wire 1 / reset $end
+$var wire 1 0 n1_o $end
+$var wire 1 1 counter_0_counter_value_o [3] $end
+$var wire 1 2 counter_0_counter_value_o [2] $end
+$var wire 1 3 counter_0_counter_value_o [1] $end
+$var wire 1 4 counter_0_counter_value_o [0] $end
+
+$scope module counter_0 $end
+$var wire 1 , clock_i $end
+$var wire 1 / reset_i $end
+$var wire 1 . enable_i $end
+$var wire 1 1 counter_value_o [3] $end
+$var wire 1 2 counter_value_o [2] $end
+$var wire 1 3 counter_value_o [1] $end
+$var wire 1 4 counter_value_o [0] $end
+$var wire 1 5 counter_value [3] $end
+$var wire 1 6 counter_value [2] $end
+$var wire 1 7 counter_value [1] $end
+$var wire 1 8 counter_value [0] $end
+$var wire 1 9 next_counter_value [3] $end
+$var wire 1 : next_counter_value [2] $end
+$var wire 1 ; next_counter_value [1] $end
+$var wire 1 < next_counter_value [0] $end
+$var wire 1 = n13_o $end
+$var wire 1 > n15_o [3] $end
+$var wire 1 ? n15_o [2] $end
+$var wire 1 @ n15_o [1] $end
+$var wire 1 A n15_o [0] $end
+$var wire 1 B n17_o [3] $end
+$var wire 1 C n17_o [2] $end
+$var wire 1 D n17_o [1] $end
+$var wire 1 E n17_o [0] $end
+$var wire 1 F n19_o [3] $end
+$var wire 1 G n19_o [2] $end
+$var wire 1 H n19_o [1] $end
+$var wire 1 I n19_o [0] $end
+$var reg 4 J n20_q [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+0%
+0&
+0+
+b0 J
+b10000 "
+b100 #
+r8000000 !
+0*
+0)
+0(
+0'
+1/
+10
+04
+03
+02
+01
+08
+07
+06
+05
+1<
+0;
+0:
+09
+0=
+1A
+0@
+0?
+0>
+1E
+0D
+0C
+0B
+0I
+0H
+0G
+0F
+0.
+0-
+0,
+$end
+#62500
+1$
+1,
+#125000
+1%
+0$
+1-
+00
+0,
+0/
+#187500
+1$
+1,
+#250000
+0$
+0,
+#312500
+1$
+1,
+#375000
+0$
+0,
+#437500
+1$
+1,
+#500000
+0$
+0,
+#562500
+1$
+1,
+#625000
+0$
+0,
+#687500
+1$
+1,
+#750000
+0$
+0,
+#812500
+1$
+1,
+#875000
+1&
+0$
+1.
+1I
+0,
+#937500
+1$
+1,
+b1 J
+18
+14
+0A
+1@
+0E
+1D
+1*
+0<
+1;
+0I
+1H
+#1000000
+0$
+0,
+#1062500
+1$
+1,
+b10 J
+08
+17
+04
+13
+1A
+1E
+0*
+1)
+1<
+1I
+#1125000
+0$
+0,
+#1187500
+1$
+1,
+b11 J
+18
+14
+0A
+0@
+1?
+0E
+0D
+1C
+1*
+0<
+0;
+1:
+0I
+0H
+1G
+#1250000
+0$
+0,
+#1312500
+1$
+1,
+b100 J
+08
+07
+16
+04
+03
+12
+1A
+1E
+0*
+0)
+1(
+1<
+1I
+#1375000
+0$
+0,
+#1437500
+1$
+1,
+b101 J
+18
+14
+0A
+1@
+0E
+1D
+1*
+0<
+1;
+0I
+1H
+#1500000
+0$
+0,
+#1562500
+1$
+1,
+b110 J
+08
+17
+04
+13
+1A
+1E
+0*
+1)
+1<
+1I
+#1625000
+0$
+0,
+#1687500
+1$
+1,
+b111 J
+18
+14
+0A
+0@
+0?
+1>
+0E
+0D
+0C
+1B
+1*
+0<
+0;
+0:
+19
+0I
+0H
+0G
+1F
+#1750000
+0$
+0,
+#1812500
+1$
+1,
+b1000 J
+08
+07
+06
+15
+04
+03
+02
+11
+1A
+1E
+0*
+0)
+0(
+1'
+1<
+1I
+#1875000
+0$
+0,
+#1937500
+1$
+1,
+b1001 J
+18
+14
+0A
+1@
+0E
+1D
+1*
+0<
+1;
+0I
+1H
+#2000000
+0$
+0,
+#2062500
+1$
+1,
+b1010 J
+08
+17
+04
+13
+1A
+1E
+0*
+1)
+1<
+1I
+#2125000
+0&
+0$
+0.
+0I
+0,
+#2187500
+1$
+1,
+#2250000
+0$
+0,
+#2312500
+1$
+1,
+#2375000
+0$
+0,
+#2437500
+1$
+1,
+#2500000
+0$
+0,
+#2562500
+1$
+1,
+#2625000
+0$
+0,
+#2687500
+1$
+1,
+#2750000
+1&
+0$
+1.
+1I
+0,
+#2812500
+1$
+1,
+b1011 J
+18
+14
+0A
+0@
+1?
+0E
+0D
+1C
+1*
+0<
+0;
+1:
+0I
+0H
+1G
+#2875000
+0$
+0,
+#2937500
+1$
+1,
+b1100 J
+08
+07
+16
+04
+03
+12
+1A
+1E
+0*
+0)
+1(
+1<
+1I
+#3000000
+0$
+0,
+#3062500
+1$
+1,
+b1101 J
+18
+14
+0A
+1@
+0E
+1D
+1*
+0<
+1;
+0I
+1H
+#3125000
+0$
+0,
+#3187500
+1$
+1,
+b1110 J
+08
+17
+04
+13
+1A
+1E
+0*
+1)
+1<
+1I
+#3250000
+0$
+0,
+#3312500
+1$
+1,
+b1111 J
+18
+1=
+14
+0A
+0@
+0?
+0>
+1*
+0E
+0D
+0C
+0B
+0<
+0;
+0:
+09
+0I
+0H
+0G
+0F
+#3375000
+0$
+0,
+#3437500
+1$
+1,
+b0 J
+08
+07
+06
+05
+0=
+04
+03
+02
+01
+1A
+0*
+0)
+0(
+0'
+1E
+1<
+1I
+#3500000
+0$
+0,
+#3562500
+1$
+1,
+b1 J
+18
+14
+0A
+1@
+0E
+1D
+1*
+0<
+1;
+0I
+1H
+#3625000
+0$
+0,
+#3687500
+1$
+1,
+b10 J
+08
+17
+04
+13
+1A
+1E
+0*
+1)
+1<
+1I
+#3750000
+0$
+0,
+#3812500
+1$
+1,
+b11 J
+18
+14
+0A
+0@
+1?
+0E
+0D
+1C
+1*
+0<
+0;
+1:
+0I
+0H
+1G
+#3875000
+0$
+0,
+#3937500
+1$
+1,
+b100 J
+08
+07
+16
+04
+03
+12
+1A
+1E
+0*
+0)
+1(
+1<
+1I
+#4000000
+1+

@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/si150/eda/designs/ASAP7_Digital-Design-Template/verilog/sim
+vcounter_4_16
+Z1 !s110 1734004427
+!i10b 1
+!s100 h=KLPLkmAc024EiQb@YlN0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2lhRXJ@bVj3C^^3P157M:3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1733952190
+Z5 8../rtl/counter_board.v
+Z6 F../rtl/counter_board.v
+!i122 2
+L0 1 32
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1734004427.000000
+Z9 !s107 ../rtl/counter_board.v|
+Z10 !s90 -reportprogress|300|-work|work|../rtl/counter_board.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vcounter_board
+R1
+!i10b 1
+!s100 DF:JA4^Eha]D>E?[SMEIb3
+R2
+In:1A<A?`iA5X]002af0P_3
+R3
+R0
+R4
+R5
+R6
+!i122 2
+L0 34 20
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecounter_tb
+Z13 w1733680198
+Z14 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z16 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z17 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R0
+Z18 8counter_tb.vhd
+Z19 Fcounter_tb.vhd
+l0
+L14 1
+VaLNdPfXko7RT2e3O`6M300
+!s100 DdbaO>0LJGeioJHU<ed:R1
+Z20 OV;C;2020.1;71
+32
+R1
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|counter_tb.vhd|
+!s107 counter_tb.vhd|
+!i113 1
+R11
+Z22 tExplicit 1 CvgOpt 0
+Abhv
+R14
+R15
+R16
+R17
+DEx4 work 10 counter_tb 0 22 aLNdPfXko7RT2e3O`6M300
+!i122 3
+l47
+L18 74
+V2[VW==205acQlLW:`RZRZ1
+!s100 :INf][>zXTz59>GgDh8DG2
+R20
+32
+R1
+!i10b 1
+R8
+R21
+Z23 !s107 counter_tb.vhd|
+!i113 1
+R11
+R22
