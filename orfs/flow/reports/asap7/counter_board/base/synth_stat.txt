@@ -1,10 +1,10 @@
 
 26. Printing statistics.
 
-=== counter_board ===
+=== counter_4_16 ===
 
-   Number of wires:                 23
-   Number of wire bits:             26
+   Number of wires:                 24
+   Number of wire bits:             27
    Number of public wires:           4
    Number of public wire bits:       7
    Number of ports:                  4
@@ -12,14 +12,14 @@
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                 22
+   Number of cells:                 23
      AND3x1_ASAP7_75t_R              1
      AND4x1_ASAP7_75t_R              1
      AO21x2_ASAP7_75t_R              1
      AOI21x1_ASAP7_75t_R             1
      DFFASRHQNx1_ASAP7_75t_R         4
      HAxp5_ASAP7_75t_R               1
-     INVx1_ASAP7_75t_R               3
+     INVx1_ASAP7_75t_R               4
      INVx2_ASAP7_75t_R               2
      NAND2x1_ASAP7_75t_R             1
      NOR2x1_ASAP7_75t_R              1
@@ -30,6 +30,62 @@
      TIEHIx1_ASAP7_75t_R             1
      XNOR2x2_ASAP7_75t_R             1
 
-   Chip area for module '\counter_board': 3.090960
-     of which used for sequential elements: 1.516320 (49.06%)
+   Chip area for module '\counter_4_16': 3.134700
+     of which used for sequential elements: 1.516320 (48.37%)
+
+=== counter_board ===
+
+   Number of wires:                  5
+   Number of wire bits:              8
+   Number of public wires:           5
+   Number of public wire bits:       8
+   Number of ports:                  4
+   Number of port bits:              7
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  2
+     INVx3_ASAP7_75t_R               1
+     counter_4_16                    1
+
+   Area for cell type \counter_4_16 is unknown!
+
+   Chip area for module '\counter_board': 0.072900
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== design hierarchy ===
+
+   counter_board                     1
+     counter_4_16                    1
+
+   Number of wires:                 29
+   Number of wire bits:             35
+   Number of public wires:           9
+   Number of public wire bits:      15
+   Number of ports:                  8
+   Number of port bits:             14
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 24
+     AND3x1_ASAP7_75t_R              1
+     AND4x1_ASAP7_75t_R              1
+     AO21x2_ASAP7_75t_R              1
+     AOI21x1_ASAP7_75t_R             1
+     DFFASRHQNx1_ASAP7_75t_R         4
+     HAxp5_ASAP7_75t_R               1
+     INVx1_ASAP7_75t_R               4
+     INVx2_ASAP7_75t_R               2
+     INVx3_ASAP7_75t_R               1
+     NAND2x1_ASAP7_75t_R             1
+     NOR2x1_ASAP7_75t_R              1
+     OA21x2_ASAP7_75t_R              1
+     OAI21x1_ASAP7_75t_R             1
+     OR3x1_ASAP7_75t_R               1
+     OR4x1_ASAP7_75t_R               1
+     TIEHIx1_ASAP7_75t_R             1
+     XNOR2x2_ASAP7_75t_R             1
+
+   Chip area for top module '\counter_board': 3.207600
+     of which used for sequential elements: 1.516320 (47.27%)
 
