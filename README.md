@@ -19,14 +19,14 @@ If you want to use other OpenROAD-compatible PDKs, just add the corresponding fi
 
 #### Step-by-step introduction:
 
-1. Clone this repo into the `foss/designs` folder of your IIC-OSIC-Tools environment with `git clone https://github.com/simi1505/ASAP7_Digital-Design-Template.git`.
-3. Rename the repo as you wish.
-4. Execute `clean_all.sh` to remove any build files.
-5. Add your VHDL code to the `vhdl` folder. It is advised that the same folder structure with `rtl` and `sim` is used.
-6. Add your `Xschem` files and testbenches to the `xschem` folder
-7. Adapt VHDL paths in `vhdl2verilog.sh` in the `verilog` folder. If the design is already done in Verilog, this step can be skipped. Do not forget to also comment out this step in `run_all.sh`.
-8. Add config files to `orfs/flow/designs/asap7`. It is a good idea to copy an existing folder (e.g. `counter_board`) and adapt these files. Do not forget to set the path to the Verilog file in `config.mk` and set up the `constraint.sdc` and `autotuner.json`.
-9. Adapt name and Verilog path in `run_all.sh`.
+1. Download this repo and copy it into the `foss/designs` folder of your IIC-OSIC-Tools environment.
+2. Rename the repo as you wish.
+3. Execute `clean_all.sh` to remove any build files.
+4. Add your VHDL code to the `vhdl` folder. It is advised that the same folder structure with `rtl` and `sim` is used.
+5. Add your `Xschem` files and testbenches to the `xschem` folder
+6. Adapt VHDL paths in `vhdl2verilog.sh` in the `verilog` folder. If the design is already done in Verilog, this step can be skipped. Do not forget to also comment out this step in `run_all.sh`.
+7. Add config files to `orfs/flow/designs/asap7`. It is a good idea to copy an existing folder (e.g. `counter_board`) and adapt these files. Do not forget to set the path to the Verilog file in `config.mk` and set up the `constraint.sdc` and `autotuner.json`.
+8. Adapt name and Verilog path in `run_all.sh`.
 
 #### Hierarchical synthesis:
 
