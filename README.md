@@ -32,7 +32,7 @@ If you want to use other OpenROAD-compatible PDKs, just add the corresponding fi
 
 If you want to see the area per module / entity of your digital core, you can set `export SYNTH_HIERARCHICAL=1` and `export MAX_UNGROUP_SIZE=1` in `run_all.sh` and open the hierarchy browser in the OpenROAD GUI. If it is disabled, check the box under `Windows/Hierarchy Browser`.
 
-Note that the mixed-signal simulation in Xschem will not work if `SYNTH_HIERARCHICAL=1` is set. Hence, this line must be commented out for simulation.
+**Note that the mixed-signal simulation in Xschem will not work if `SYNTH_HIERARCHICAL=1` is set. Hence, this line must be commented out for simulation.**
 
 #### Simulation details:
 
